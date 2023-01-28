@@ -1,6 +1,8 @@
 const express = require("express");
 const practiceExpress = express();
+const consoleLog = require("./practice-middleware");
 
+practiceExpress.use(consoleLog);
 practiceExpress.use(express.static("./new-public"));
 
 practiceExpress.get("/", (req, res) => {
