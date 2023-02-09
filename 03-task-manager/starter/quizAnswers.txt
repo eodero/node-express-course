@@ -1,0 +1,17 @@
+1. Quickly explain how middleware is used in an Express application.
+  - function that acts as a go-between requests and responses by performing tasks
+    such as authentication parsing data etc
+
+2. What does CRUD stand for?
+  - it's  an accepted pattern used in data management. Stands for
+    C - create
+    R - read
+    U - update
+    D - delete
+
+3. You are careful to store your sensitive information in a .env file
+  1. How do you get your app to access the information in the .env file?
+   -by using the process.env object
+
+  2. How do you protect the contents of the .env file so that it is not stored in your github repository?
+   - .env should be included in the .gitignore file
